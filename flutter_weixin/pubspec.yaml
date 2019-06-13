@@ -1,0 +1,117 @@
+name: flutter_weixin
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_webview_plugin: "^0.2.1+2"
+  date_format: "^1.0.4"
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - images/loading.jpg
+
+      #4个tab切换图片资源
+    - images/contact_list_normal.png
+    - images/contact_list_pressed.png
+    - images/find_normal.png
+    - images/find_pressed.png
+    - images/profile_normal.png
+    - images/profile_pressed.png
+    - images/weixin_normal.png
+    - images/weixin_pressed.png
+
+      #菜单按钮
+    - images/icon_menu_addfriend.png
+    - images/icon_menu_group.png
+    - images/icon_menu_scan.png
+
+      #通讯录图标
+    - images/icon_addfriend.png
+    - images/icon_groupchat.png
+    - images/icon_public.png
+
+
+      #发现模块图标
+    - images/icon_friends.png
+    - images/icon_scan.png
+    - images/icon_shake.png
+    - images/icon_look.png
+    - images/icon_search.png
+    - images/icon_near.png
+    - images/icon_bottle.png
+    - images/icon_shop.png
+    - images/icon_game.png
+    - images/icon_link.png
+
+
+      #个人中心模块图标
+    - images/icon_me_card.png
+    - images/icon_me_collect.png
+    - images/icon_me_money.png
+    - images/icon_me_photo.png
+    - images/icon_me_setting.png
+    - images/icon_me_smile.png
+    - images/code.png
+    - images/tutu.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
